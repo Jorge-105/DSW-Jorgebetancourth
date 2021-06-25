@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,91 +8,87 @@
     <title>jeb fase 2</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body>
-   <header>
-       <img src="img/logo unad.png" alt=""imagen de logo" height="100"width=100 ">
+    <header>
+        <img src="img/logo unad.png" alt="" imagen de logo" height="100" width=100 ">
        <h1>Etiquetas basicas de HTML, atributos y valores</h1>
-       <img src="img/imagen2.jpg" alt=""imagen de logo" height="100"width=200>
-   </header>
-   <hr> 
+       <img src=" img/imagen2.jpg" alt="" imagen de logo" height="100" width=200>
+    </header>
 
-   <nav>
-       <hr>
-       <ul>class=<menu>
-           <li><a href="index.html">Inicio</a></li>
-           <li><a href="index.html">Temas</a>
-               <ul> 
-                   <li><a href="tema1.html">Tema 1</a></li>
-                   <li><a href="tema2.html">Tema 2</a></li>
-               </ul>
-           </li>
-           <li><a href="#">Recursos</a>
-               <ul>class=<dropdown>
-                   <li><a href="recurso1.html">audio 1</a></li>
-                   <li><a href="recurso2.html">audio 2</a></li>
-               </ul>
-           </li>
-           <li><a href="#">Aprendizaje</a>
-               <ul>
-                   <li><a href="#">Actividad 1</a></li>
-                   <li><a href="#">Actividad 2</a></li>
-               </ul>
-           </li>
-           <li><a href="#">Acerca de</a>
-               <ul>
-                   <li><a href="autor.html">autor<a></li>
-               </ul>
-           </li>
-       </ul>
+    <!-- Barra de     menú horizontal -->
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Temas</a>
+                    <ul class="dropdown">
+                        <li><a href="tema1.html">tema 1</a></li>
+                        <li><a href="tema2.html">tema 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Recursos</a>
+                    <ul class="dropdown">
+                        <li><a href="recurso1.html">recurso1</a></li>
+                        <li><a href="recurso2.html">recurso2</a></li>
+                    </ul>
+                </li>
+                <li> <a href="#">Aprendizaje</a>
+                    <ul class="dropdown">
+                        <li><a href="#">prueba1</a></li>
+                        <li><a href="#">prueba2</a></li>
+                    </ul>
+                </li>
+                <li><a href="autor.html">Autor</a></li>
+            </ul>
+        </nav>
+        <!-- Seccion central -->
+        <div class="contenedor">
+            <aside>
+                <h4>
+                    fan page </h4>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/OGtssY-MJLI"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-   </nav>
-   <div  class="contenedor">
-       <aside>
-           <h4>
-               fan page
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/OGtssY-MJLI" title="YouTube video player"
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-                 gyroscope; picture-in-picture" allowfullscreen></iframe>
-           </h4>
-       </aside>
-   </div>
- <section>
-       <hr>
-       <h3>Proposito</h3>
-       <p>
-           Este sitio tiene como proposito comprender
-            para que son las etiquetas basicas de HTML
-            los atributos y valores
-       </p>
-       <article>
-           <h4>Etiquetas basicas de html</h4>
-           <p>
-            HTML5 es la version de HTML que corresponde a las siglas en ingles (Hiper Text Markup 
-            Language o Lenguajes de marca de hipertexto, este lenguaje de programación usa una serie 
-            de codigos llamadas etiquetas, estas definen los elementos que componen la pagina web
-             como imagenes, texto etc. los navegadores de internet con Explorer son las encargados 
-             de interpretar estas etiquetas y ser mostradas al usuario en la pagina web.
-             Tomado de Celaya Luna, A. (2014). Creación de páginas web: HTML 5 (pág. 1 a 60). 
-             Recuperado de https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/56045 >
-           </p>
-           <img src="img/etiquetas html.jpg" alt=""width=200>
+            </aside>
 
-       </article>
-       <article>
-        <h4>Audio la historia del HTML</h4>
-        <audio src="multimedia/la historia del html.mp3"controls=controls>
-            En este audio se podra escuchar parte de la historia del HTML
-        </audio>
-           
-        <img src="img/atributos html.jpg" alt="" width="200" height="200">
+            <section>
+                <hr>
+                <h3>Proposito</h3>
+                <p>
+                    Este sitio tiene como proposito conocer 
+                    la historia de donde surgio las etiquetas basicas de HTML
+                    y las fechas de modificación y evolución.
+                     
+                </p>
+                <article>
+                    <h4>imagen evolucuin del html
+                        tomado de https://s3.amazonaws.com/s3.timetoast.
+                        com/public/uploads/photo/13437712/image/6fd663681bdd0fb90c267ea036cc2447
+                        imagen historia del html tomado de 
+                        https://assets.sutori.com/user-uploads/image/6989786c-2bde-45d3-8215-
+                        84d0dded0bf8/2e2ce184ab9f640dabcceb8a572fce60.jpeg
+                    </h4>
+                   
+                    <img src="img/evolucion de html.png" alt=""width=300>
+         
+                </article>
+                <article>
+                 <h4>Audio la historia del HTML</h4>
+                 <audio src="multimedia/la historia del html.mp3"controls=controls>
+                     En este audio se podra escuchar parte de la historia del HTML
+                 </audio>
+                    
+                 <img src="img/historia del html.jpeg" alt="" width="200" height="200">
+         
+                </article>
+            </section>
 
-       </article>
-   </section>
+        </div>
+        <footer>pie de pagina
 
-</div>
-   <footer>pie de pagina
-       
-       <p></p>
-   </footer>
-</body>
+            <p></p>
+        </footer>
+    </body>
+
 </html>
